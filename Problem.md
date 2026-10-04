@@ -3,7 +3,8 @@ Secure, Centralized, and Auditable Access to AWS EC2 Instances
 This project demonstrates how AWS Systems Manager Session Manager can be used as an alternative to traditional SSH access for managing Amazon EC2 instances.
 The project compares traditional SSH access through TCP port 22 with Session Manager access and demonstrates how an EC2 instance can remain accessible through Session Manager even after inbound SSH access is removed.
 ————
-📌 Problem Statement
+
+Problem Statement
 Traditional SSH-based access to EC2 instances generally requires:
 - Inbound SSH access through port 22
 - SSH key-pair management
